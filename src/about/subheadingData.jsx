@@ -5,8 +5,9 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Hello, I'm <br />
+            Luka Elizbarashvili <br />
+            passionate Software Developer specialising in JavaScript
           </p>
         </>
       ),
@@ -18,17 +19,6 @@ const subheadingsData = {
       content: (
         <>
           <p>Access to Higher Education Diploma (Computer Science and Maths)</p>
-        </>
-      ),
-    },
-    {
-      title: "2014 Bachelors Degree",
-      content: (
-        <>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
         </>
       ),
     },
@@ -53,17 +43,6 @@ const subheadingsData = {
           <p>
             Manage a team of nine staff members to ensure timely production of
             food items for distribution to three Wasabi stores
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "2017 IT Consultant",
-      content: (
-        <>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </>
       ),

@@ -1,9 +1,25 @@
 import projectOne from "../assets/project-11.png";
 import projectTwo from "../assets/project-22.png";
 import projectThree from "../assets/project-33.png";
+import projectFour from "../assets/project-4.png";
 
 const projects = {
   1: {
+    title: "Todo App",
+    image: projectFour,
+    description: (
+      <>
+        <p>
+          The Todo App is a simple and efficient task management tool built with
+          React. It allows users to easily add, edit, and delete tasks, helping
+          to keep track of daily activities and improve productivity.
+        </p>
+      </>
+    ),
+    github: "https://github.com/CloneTrooper66/Todo-App",
+    demo: "https://todo-app-react-3.netlify.app/",
+  },
+  2: {
     title: "News API",
     image: projectOne,
     description: (
@@ -19,7 +35,7 @@ const projects = {
     github: "https://github.com/CloneTrooper66/Project",
     demo: "https://project-i8u3.onrender.com/api",
   },
-  2: {
+  3: {
     title: "NC NEWS",
     image: projectTwo,
     description: (
@@ -34,7 +50,7 @@ const projects = {
     github: "https://github.com/CloneTrooper66/nc_news",
     demo: "https://brilliant-d6ad17.netlify.app/",
   },
-  3: {
+  4: {
     title: "Limoney",
     image: projectThree,
     description: (

@@ -1,10 +1,10 @@
 .skill-menu {
-  width: 31.2rem;
+  width: 32.2rem;
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 30%;
-  right: 15vw;
+  top: 22%;
+  right: 10vw;
   align-items: flex-end;
 }
 
@@ -128,21 +128,34 @@
   }
   .skill-menu {
     flex-direction: column;
-    left: 50%;
+    left: 80%;
     transform: translateX(-50%);
     align-items: center;
-    top: 30%;
+    top: 20%;
   }
   .skill-item {
     height: 2rem;
     width: 12em;
+  }
+
+  .sub-container {
+    top: 20%;
+    left: 65%;
+  }
+  .menu {
+    top: 60%;
+    width: 9rem;
   }
 }
 @media (max-width: 700px) {
   .menu {
     width: 10rem;
     top: 30%;
-    left: 50%;
+    left: 65%;
     transform: translateY(-50%);
+  }
+  .sub-container {
+    top: 60%;
+    left: 25%;
   }
 }

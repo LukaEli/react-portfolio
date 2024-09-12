@@ -61,8 +61,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   transition: 0.5s;
 }
 
@@ -82,8 +82,8 @@ body {
   position: absolute; /* Position absolute to move it freely within the face */
   display: flex;
   justify-content: space-between;
-  width: 150px; /* Adjust the width to fit the eyes inside the face */
-  top: 380px; /* Adjust the top value to place the eyes inside the face */
+  width: 41.5%; /* Adjust the width to fit the eyes inside the face */
+  top: 41.5%; /* Adjust the top value to place the eyes inside the face */
   left: 50%; /* Center the eyes horizontally */
   transform: translateX(-50%); /* Center the eyes horizontally */
 }
@@ -107,4 +107,23 @@ body {
   border-radius: 50%;
   background: #3a3a3a;
   transform: translate(-50%, -50%);
+}
+
+.full {
+  width: 350px;
+  height: 350px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 25%;
+}
+
+.skills-style {
+  left: 25%;
+}
+
+@media (max-width: 700px) {
+  .skills-style {
+    display: none;
+  }
 }

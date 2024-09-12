@@ -4,7 +4,7 @@ import "../styles/avatar.css";
 import soldier from "../assets/eliza.png";
 import eye from "../assets/eye.png";
 
-const Avatar = ({ page }) => {
+const Avatar = ({ page, style }) => {
   useEffect(() => {
     const eyeCircle = (event) => {
       let eyes = document.querySelectorAll(".eye");
@@ -29,10 +29,12 @@ const Avatar = ({ page }) => {
 
   return (
     <>
-      <img src={soldier} alt="avatar pic" className="face" />
-      <div className="both-eyes">
-        <img src={eye} alt="right eye" className="eye" />
-        <img src={eye} alt="left eye" className="eye" />
+      <div className={`${style} full`}>
+        <img src={soldier} alt="avatar pic" className="face" />
+        <div className="both-eyes">
+          <img src={eye} alt="right eye" className="eye" />
+          <img src={eye} alt="left eye" className="eye" />
+        </div>
       </div>
     </>
   );

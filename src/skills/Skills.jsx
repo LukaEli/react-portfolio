@@ -6,7 +6,7 @@ export default class About extends Component {
   render() {
     return (
       <>
-        <Avatar page="skills" style="skills-style" />
+        <Avatar page="skills" style1="skills-style" />
         <SkillsMenu />
       </>
     );

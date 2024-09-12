@@ -1,23 +1,28 @@
 import projectOne from "../assets/project-11.png";
 import projectTwo from "../assets/project-22.png";
 import projectThree from "../assets/project-33.png";
-import projectFour from "../assets/project-4.png";
+import projectFour from "../assets/Youtube.png";
 
 const projects = {
   1: {
-    title: "Todo App",
+    title: "Youtube Clone",
     image: projectFour,
     description: (
       <>
         <p>
-          The Todo App is a simple and efficient task management tool built with
-          React. It allows users to easily add, edit, and delete tasks, helping
-          to keep track of daily activities and improve productivity.
+          YouTube clone built using React, designed to replicate the core
+          functionalities of the popular video-sharing platform. It features a
+          responsive user interface, dynamic video browsing, and playback
+          capabilities. The application utilizes React's component-based
+          architecture to manage state efficiently, ensuring smooth video
+          loading and seamless user experience. Key features include a custom
+          video player and video recommendations. This project demonstrates the
+          power of React in building scalable and interactive web applications.
         </p>
       </>
     ),
-    github: "https://github.com/CloneTrooper66/Todo-App",
-    demo: "https://todo-app-react-3.netlify.app/",
+    github: "https://github.com/LukaEli/Youtube-Clone",
+    demo: "https://test1532.netlify.app/",
   },
   2: {
     title: "News API",

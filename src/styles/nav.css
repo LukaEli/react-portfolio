@@ -68,3 +68,9 @@ a {
     display: none;
   }
 }
+
+@media (max-width: 700px) {
+  .nav {
+    top: calc(100vh - 4rem);
+  }
+}

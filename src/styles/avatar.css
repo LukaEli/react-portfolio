@@ -1,4 +1,4 @@
-.avatar {
+/* .avatar {
   position: fixed;
   overflow: hidden;
   z-index: -2;
@@ -44,5 +44,86 @@
     z-index: -5;
     height: 95vh;
     bottom: -15vh;
+  }
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2a1c42;
+  margin: 0;
+}
+
+.face {
+  position: relative; /* Make sure the face is positioned relative */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.face::before {
+  content: "";
+  position: absolute;
+  top: 180px;
+  width: 100px;
+  height: 55px;
+  transition: 1s;
+  background: #f71c4f;
+  border-bottom-left-radius: 65px;
+  border-bottom-right-radius: 65px;
+}
+
+.both-eyes {
+  position: absolute; /* Position absolute to move it freely within the face */
+  display: flex;
+  justify-content: space-between;
+  width: 41.5%; /* Adjust the width to fit the eyes inside the face */
+  top: 41.5%; /* Adjust the top value to place the eyes inside the face */
+  left: 50%; /* Center the eyes horizontally */
+  transform: translateX(-50%); /* Center the eyes horizontally */
+}
+
+.both-eyes .eye {
+  display: block;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 14px 13px;
+}
+
+.both-eyes .eye::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #3a3a3a;
+  transform: translate(-50%, -50%);
+}
+
+.full {
+  width: 350px;
+  height: 350px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 25%;
+}
+
+.skills-style {
+  left: 25%;
+}
+
+@media (max-width: 700px) {
+  .skills-style {
+    display: none;
   }
 }
